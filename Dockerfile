@@ -4,6 +4,7 @@ MAINTAINER Jan Grewe <jan@faked.org>
 ENV VERSION_TOOLS "8512546"
 
 ENV ANDROID_SDK_ROOT "/sdk"
+
 # Keep alias for compatibility
 ENV ANDROID_HOME "${ANDROID_SDK_ROOT}"
 ENV PATH "$PATH:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
